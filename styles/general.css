@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 1200px;
+}
+
+:root {
+    --primary: #000000;
+    --content: #fff;
+    --secondary: #dadbf1;
+    --misc: #4C5FD5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

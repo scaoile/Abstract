@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--primary);
+    display: flex;
+    height: 88px;
+    padding: 19px 90px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.left-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    width: 126px;
+    height: 32px;
+}
+
+.help-center-link {
+    color: var(--content);
+    font-size: 20px;
+    border-left: solid 2px var(--content);
+    padding: 2px 0 4px 12px;
+    margin: 4px 0 0 12px;
+}
+
+.right-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.submit-button, .sign-in-button {
+    padding: 6px 22px;
+    margin-left: 16px;
+    font-size: 24px;
+    border-radius: 8px;
+    height: 50px;
+    color: var(--content);
+}
+
+.submit-button {
+    background-color: rgb(25, 26, 27);
+    border: solid 1px var(--content);
+}
+
+.sign-in-button {
+    background-color: var(--misc);
+    border: solid 1px var(--misc);
+}
