@@ -48,3 +48,9 @@
     background-color: var(--misc);
     border: solid 1px var(--misc);
 }
+
+@media (max-width: 820px) {
+    .sign-in-button, .submit-button {
+        display: none;
+    }
+}
